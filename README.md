@@ -2,7 +2,7 @@
 messing around with things
 
 I was working on a Phantasy Start Online (EP 1) fanfic for NaNoWriMo
-and I wanted to get sector ID's to names correct
+and I wanted to get sector ID's to names correct... 
 I coded this up based on what i found online. This is not the blue-burst with the offset, but I think I could easily add that in the future.
 I tried to clean up my pylint issues.
 I then threw the code at FastAPI to make it an API call because I had never used it before.
