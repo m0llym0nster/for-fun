@@ -12,7 +12,7 @@ I then threw the code at FastAPI to make it an API call because I had never used
 3. cd into the dir
 4. maybe you need to chmod +x main.py
 5. ./main.py
-6. access via: yourhost:8000/sectid/<yourname>
+6. access via: yourhost:8000/sectid/yourname
 7. also use /docs for the auto-generated swagger docs from FastAPI
 
 FastAPI is cool!
