@@ -10,6 +10,7 @@ just like PSO ep1 (not blueburst)."""
 
 app = FastAPI()
 @app.get("/sectid/{yourname}")
+#user must GET request /sectid/ with their name appended
 async def read_item(yourname):
     sectorid=pso_sectid.pso_sectid(yourname)
     return { yourname : sectorid }
