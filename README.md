@@ -7,7 +7,7 @@ I coded this up based on what i found online. This is not the blue-burst with th
 I tried to clean up my pylint issues.
 I then threw the code at FastAPI to make it an API call because I had never used it before.
 
-1. install uvicorn
+1. install uvicorn (apt install uvicorn for ubuntu)
 2. git clone this
 3. cd into the dir
 4. run by: uvicorn main:app
@@ -16,3 +16,5 @@ I then threw the code at FastAPI to make it an API call because I had never used
 6. also use /docs for the auto-generated swagger docs from FastAPI
 
 FastAPI is cool!
+
+this will never be completed to perfection. i don't have that kind of attention span. sorrynotsorry.
