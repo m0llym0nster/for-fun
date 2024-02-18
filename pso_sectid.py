@@ -67,5 +67,6 @@ def pso_sectid(yourname):
     #print(strname + " is a " + sectid)
     return sectid
 
+#commented out main here to use with fast api
 #if __name__ == "__main__"
     #main()
