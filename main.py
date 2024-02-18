@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from pso_sectid import pso_sectid
+import pso_sectid
 
 """first time using fast api"""
 
