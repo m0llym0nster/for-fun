@@ -22,8 +22,8 @@ def get_values(string):
         namesum = namesum + int(i)
     logging.info('the sum %s',namesum)
     namesum = namesum % 10
-
     return namesum
+
 def sectionid(valuenum):
     """use sum modulus to get the section id"""
     match valuenum:
@@ -51,22 +51,21 @@ def sectionid(valuenum):
             sectid = "Something went horribly wrong"
     return sectid
 
-def main ():
-    """main"""
+def pso_sectid (yourname):
+    """start of sectid"""
     #logging
-    logging.basicConfig(level=logging.INFO)
-    #logging.basicConfig(level=logging.ERROR)
+    #logging.basicConfig(level=logging.INFO)
+    logging.basicConfig(level=logging.ERROR)
     #get user input for name
-    strname = input("Enter Name to determine: ")
+    #strname = input("Enter Name to determine: ")
+    strname = yourname
     #get utf values and put in array for letters
     modmathint=get_values(strname)
     logging.info('returned value %s ',modmathint)
     #get section id based on the return of the digit
     sectid=sectionid(modmathint)
-    print(strname + " is a " + sectid)
-    return 0
+    #print(strname + " is a " + sectid)
+    return sectid
 
-if __name__ == "__main__":
-
-    main()
-    
+#if __name__ == "__main__"
+    #main()
