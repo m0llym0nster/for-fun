@@ -51,7 +51,7 @@ def sectionid(valuenum):
             sectid = "Something went horribly wrong"
     return sectid
 
-def pso_sectid (yourname):
+def pso_sectid(yourname):
     """start of sectid"""
     #logging
     #logging.basicConfig(level=logging.INFO)
