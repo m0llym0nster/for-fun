@@ -21,11 +21,11 @@ IF YOU USE THE DOCKER CONTAINER!
 
 standard docker build from Dockerfile :
 ```sudo docker build --file Dockerfile --tag pso-sect-id:latest```
-#tag it whatever you want really.
+#tag it whatever you want really. I built the image with the action menu here in git so i think you should be able to pull it somehow, still figuring how it works for github. 
 
 run ``` sudo docker iamges ``` to get image id for next command:
 then to run:
-```sudo docker run -p 8081:8000 -d -name "pso-sect-id" <image id>```
+```sudo docker run -p 8080:8000 -d -name "pso-sect-id" <image id>```
 
 #whatever port you want; if you are using a vm and likely have multiple interfaces. I hardcoded port 8000 in main.py
 #you can do something more like
