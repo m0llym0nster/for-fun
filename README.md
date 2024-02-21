@@ -17,4 +17,13 @@ I then threw the code at FastAPI to make it an API call because I had never used
 
 FastAPI is cool!
 
-this will never be completed to perfection. i don't have that kind of attention span. sorrynotsorry.
+IF YOU USE THE DOCKER CONTAINER!
+standard docker build from Dockerfile :
+sudo docker build --file Dockerfile --tag pso-sect-id:latest
+#tag it whatever you want really.
+run docker iamges to get image id for next command:
+then to run:
+sudo docker run -p 8081:5000 -d -name "pso-sect-id" <image id>
+#whatever port you want; if you are using a vm and likely have multiple interfaces
+#you can do something more like
+sudo docker run -p 192.168.1.2:8080:5000 -name "pso-sect-id" <image id>
